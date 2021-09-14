@@ -1,0 +1,22 @@
+.outerCircle {
+    /*design*/
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 2px solid cornflowerblue;
+    /* centering */
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.innerCircle {
+    /*design*/
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: deepskyblue;
+    /* centering */
+    margin: 38.9%;
+}
